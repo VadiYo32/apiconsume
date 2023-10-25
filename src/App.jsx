@@ -1,12 +1,24 @@
+import Card from "./components/card";
+
 function App() {
+  //add reac router
   return (
-    <div>
-      <h1 className="bg-gradient-to-r from-indigo-400 to-pink-400 bg-clip-text text-8xl font-extrabold text-transparent">
-        We love tailwind 💙
-      </h1>
-      <p className="p-4 pl-2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-      </p>
+    <div  >
+      <main className="bg-black h-screen  grid grid-cols-3 gap-4 ">
+        <Card  strMealThumb={"https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg"}/>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </main>
+
     </div>
   );
 }
